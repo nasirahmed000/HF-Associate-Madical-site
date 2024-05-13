@@ -1,0 +1,387 @@
+/* common css start  */
+body{
+      font-family: "Raleway", sans-serif;
+      color: #4E4E4E;
+      font-optical-sizing: auto;
+      font-style: normal;
+      margin: 0;
+      padding: 0;     
+}
+/* common css end */
+
+/* header start  */
+header{
+    background-color: white;
+    padding: 25px 0;
+    border-bottom: solid 1px;
+}
+.logo{
+    /* width: 200px; */
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    color:  #FFF; 
+}
+/* .cnav{
+
+}
+.menu{
+
+} */
+.menu ul li a{
+    color:#707070 !important;
+    padding: 0 21px !important;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.about_a{
+    margin-left: 870px;
+}
+
+.navt:focus{
+    box-shadow: none;
+}
+
+/* .btn_common{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-bottom: 10px;
+    background-color: #0682a2;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 2px 40px;
+    border:none;
+} */
+
+.btn_common{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0682a2 !important;
+    color: #ffffff !important;
+    font-weight: 400;
+  
+}
+.btn_2{
+    padding: 15px 100px;
+}
+.header_btn{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 70px;
+}
+/* header end  */
+
+
+/* banner start  */
+.banner{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner_text{
+
+
+}
+.banner_text h1{
+ margin-top: 210px;
+ margin-left: 153px;
+ font-size: 56px;
+ font-weight: 400;
+
+}
+.way{
+margin-left: 230px;
+margin-top: -30px;
+font-size: 69px;
+font-weight: 700;
+color: #0682a2;
+
+}
+.banner_btn{
+    margin-top: 206px;
+    margin-left: 500px;
+    margin-bottom: 55px; 
+    font-size: 28px; 
+}
+
+.btn_1{
+    margin-right: 165px;
+    padding: 15px 55px;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 7px;   
+}
+.btn_appoint{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.banner_btn button{
+ background-color: #0682a2;
+    /* padding: 15px 15px; */
+    font-size: 28px;
+    color: #fff;
+    border-radius: 7px; 
+
+
+}
+/* banner end  */
+
+/* banner description start  */
+.banner_description{
+    padding-top: 52px;
+    padding-bottom: 35px;
+}
+.banner_p p{
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 57px;
+}
+.HF{
+    color: #0682a2;
+    font-weight: 700;
+}
+.border::after {  
+        content: "";
+        display: block;
+        width: 50%; 
+        margin: 0 auto;
+        border-bottom: 2px solid #707070; 
+        margin-top: 10px;   
+}
+
+/* About start  */
+.about{
+    padding-bottom: 85px;
+   
+    
+    
+    
+}
+.about_heading{
+ 
+}
+
+.about_heading h1{
+    color: #0682a2;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about_heading h3{
+font-size: 26px;
+text-align: center;
+color: #39260C;
+}
+.underline{
+    content: "";
+    display: block;
+    width: 20%; 
+    margin: 0 auto;
+    border-bottom: px solid #707070; 
+    margin-top: 10px;  
+}
+.about_img{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.about_img img{
+    margin-left: 400px;
+    margin-top: -207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.about_p{
+    margin-top: 45px;
+}
+.about_p p{
+    color: #0D0D0D;
+    text-align: left;
+    padding-right: 230px;
+    margin-top: 45px; 
+}
+.description{
+    background-image: url(../images/juj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-position: center center; 
+}
+
+/* service section start */
+.service{
+padding-bottom: 40px;
+}
+
+.practice{
+    background-image: url(../images/Mask-Group-4-1.png);
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: center center;
+    margin-bottom: 72px;
+}
+  
+.practice h3{
+    color: #F4F9F8;
+    font-size: 37px;
+}
+.practice_span{
+    font-weight: 700;
+}  
+.service_text img{
+    margin-left: 30px;
+}
+.service_text h3{
+color: #0682a2;
+font-size: 33px;
+font-weight: 700;
+}
+.baby{
+    
+}
+.baby img {
+    margin-left: 95px;
+}
+
+.office{
+    
+}
+.office h3{
+    color: #0682a2;
+    font-size: 33px;
+    font-weight: 700;
+}
+.office p{
+
+}
+.list_item{
+    margin-left: 300px;
+    
+}
+.list_item ul{
+    
+
+}
+.list_item ul li{ 
+    font-size: 20px;
+}
+.ultra{
+    margin-left: 80px;
+}
+
+/* individual start  */
+.individual{
+    background-image: url(../images/Background.png);
+    padding: 15px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 53px;
+}
+
+.individual_text{
+   
+}
+.individual_text h3{
+    text-align: center;
+    color: #F4F9F8;
+    font-size: 56px;
+}
+.individual_text h1{
+    color: #F4F9F8;
+    font-size: 69px;
+    font-weight: 700;
+    margin-top: -22px;
+    text-align: center;
+}
+.individual_text p{
+    color: #F4F9F8;
+    font-size: 48px;
+    margin-top: -35px;
+    text-align: center;
+}
+
+.anti_aging{
+   display: flex; 
+   
+}
+.anti_aging img{
+    width: 29px;
+    height: 29px;
+}
+   
+.anti_aging h5{
+   color: #F4F9F8;
+   font-size: 25px;
+   margin-left: 10px;
+   
+}
+
+/* contact us start  */
+.contact{
+    padding-bottom: 45px;
+
+}
+.footer{
+    padding-bottom: 140px;
+}
+.learn_more{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+.contact-background{
+    position: relative;
+}
+.background{
+    position: absolute;
+    top: 20px;
+    left: -400px;
+}
+.btn_3{
+    background-color: #0682a2;
+    color: #F4F9F8;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: left;
+}
+
+/* special section for background image positioing  start  */
+.mixed{
+    position: relative;
+    overflow: hidden;
+}
+.left-side-image{
+    position: absolute;
+    top: 27%;
+    left: -25%;
+    z-index: -1;
+}
+.ball-image{
+    position: absolute;
+    top: 30%;
+    right: -30%;
+    z-index: -1;
+}
+
+.footer-image{
+    position: absolute;
+    top: 75%;
+    left: -22%;
+    z-index: -1;
+}
+
+/* special section for background image positioning end  */
